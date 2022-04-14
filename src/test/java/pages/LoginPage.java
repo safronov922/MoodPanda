@@ -37,8 +37,5 @@ public class LoginPage {
         emailInput.sendKeys(email);
         passwordInput.sendKeys(password);
         buttonLogin.click();
-
-
-
     }
 }

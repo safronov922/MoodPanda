@@ -11,6 +11,7 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 public class BaseTest {
     @BeforeClass
     public void setUp(){
+        Configuration.browser="edge";
         Configuration.timeout = WebTimouts.ELEMENT_LOAD_TIMEOUT;
         Configuration.baseUrl = WebUrls.BASE_URL;
         Configuration.startMaximized = true;
